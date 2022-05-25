@@ -1,0 +1,27 @@
+.navbar-brand {
+    color: #CF9682;
+    font-weight: bold;
+}
+.navbar-nav {
+    .nav-link {
+        color: #CF9682 !important;
+        font-weight: bold;
+    }
+
+    &:hover {
+        color: white !important;
+    }
+}
+.navbar-toggler {
+    border: 1px solid #952b2ba1!important;
+}
+
+#encabezado {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background-color: #f1cfba;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    display: block;
+}
