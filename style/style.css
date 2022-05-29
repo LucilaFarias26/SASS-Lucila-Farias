@@ -68,7 +68,7 @@ h3.titulo-info-footer {
   display: flex;
   padding-bottom: 2%;
   justify-content: space-around;
-  color: black; }
+  color: #CF9682; }
 
 @media (max-width: 768px) {
   .contenedor-info-footer {
@@ -100,7 +100,7 @@ h3.titulo-info-footer {
   text-align: center;
   font-size: 1rem;
   padding: 5px;
-  color: black; }
+  color: #CF9682; }
 
 /*Pagina de inicio */
 .main-home {
