@@ -229,12 +229,14 @@ h3.titulo-info-footer {
   margin-right: 10px; }
 
 .boton {
-  border-radius: 20px;
-  font-size: 16px;
-  color: white;
+  text-align: center;
+  border: solid 1px #CF9682;
   background-color: #CF9682;
-  padding-left: 15px;
-  padding-right: 15px; }
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 100px;
+  margin: auto; }
 
 /*Página nosotros*/
 .encabezado-nosotros {

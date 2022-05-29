@@ -244,12 +244,14 @@ h3.titulo-info-footer {
 }
 
 .boton {
-    border-radius: 20px;
-    font-size: 16px;
-    color: white;
+    text-align: center;
+    border: solid 1px $principal;
     background-color: $principal;
-    padding-left: 15px;
-    padding-right: 15px;
+    color: white; 
+    font-weight: bold;
+    border-radius: 30px;
+    width: 100px;
+    margin: auto;
 }
 
 /*Página nosotros*/
