@@ -48,7 +48,7 @@ body {
   background-color: #fcf3f0 !important;
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
-  color:black;
+  color: black;
   margin: 0;
   padding: 0; }
 
@@ -58,7 +58,8 @@ footer {
 
 h3.titulo-info-footer {
   font-weight: bold;
-  font-size: 18px; }
+  font-size: 18px;
+  color: #CF9682; }
 
 .contenedor-info-footer {
   height: auto;
@@ -67,7 +68,7 @@ h3.titulo-info-footer {
   display: flex;
   padding-bottom: 2%;
   justify-content: space-around;
-  color: #CF9682; }
+  color: black; }
 
 @media (max-width: 768px) {
   .contenedor-info-footer {
@@ -97,9 +98,9 @@ h3.titulo-info-footer {
 
 .copy {
   text-align: center;
-  font-size: 12px;
+  font-size: 1rem;
   padding: 5px;
-  color: #CF9682; }
+  color: black; }
 
 /*Pagina de inicio */
 .main-home {
@@ -321,8 +322,8 @@ h3.titulo-info-footer {
   font-size: 13px;
   font-weight: bold;
   text-align: center;
-  margin-top: 20px; 
-color: black;}
+  margin-top: 20px;
+  color: black; }
 
 .item-name {
   font-size: 14px;
@@ -330,13 +331,13 @@ color: black;}
   text-align: center;
   margin-top: 1px;
   margin-bottom: -10px;
-color: black; }
+  color: black; }
 
 .cuotas {
   font-size: 12px;
   text-align: center;
-  margin-top: -10px; 
-color: black;}
+  margin-top: -10px;
+  color: black; }
 
 @media (max-width: 768px) {
   .cuotas {
