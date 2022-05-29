@@ -17,22 +17,22 @@ body {
 /*Reglas del footer */
 
 footer {
-    background-color: $secundario;
+    background-color: $principal;
 }
 
 h3.titulo-info-footer {
     font-weight: bold;
     font-size: 18px;
-    color: $principal;
+    color: $terciario;
 }
 .contenedor-info-footer {
     height: auto;
-    padding: 10px;
+    padding: 30px;
     width: 100%;
     display: flex;
-    padding-bottom: 2%;
+    padding-bottom: 5px;
     justify-content: space-around;
-    color: $principal;
+    color: $terciario;
 }
 
 @media (max-width: 768px) {
@@ -72,7 +72,7 @@ h3.titulo-info-footer {
     text-align: center;
     font-size: 1rem;
     padding: 5px;
-    color: $principal;
+    color: $terciario;
 }
 
 /*Pagina de inicio */

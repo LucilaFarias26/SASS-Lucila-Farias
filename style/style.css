@@ -20,24 +20,23 @@
   font-family: 'Cantata One', serif;
   padding: 10px 10px; }
 
-.navbar-brand {
-  color: #CF9682;
-  font-weight: bold; }
-
-.navbar-nav .nav-link {
-  color: #CF9682 !important;
-  font-weight: bold; }
-
-.navbar-nav:hover {
-  color: white !important; }
-
-.navbar-toggler {
-  border: 1px solid #952b2ba1 !important; }
+.navbar {
+  margin-bottom: 12px; }
+  .navbar .navbar-brand {
+    color: #CF9682;
+    font-weight: bold; }
+  .navbar .navbar-nav .nav-link {
+    color: #CF9682 !important;
+    font-weight: bold; }
+  .navbar .navbar-nav .nav-link:hover {
+    color: white !important; }
+  .navbar .navbar-toggler {
+    border: 1px solid #952b2ba1 !important; }
 
 #encabezado {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  background-color: #f1cfba;
+  background-color: #CF9682;
   color: white;
   text-align: center;
   padding: 5px 0;
@@ -54,21 +53,21 @@ body {
 
 /*Reglas del footer */
 footer {
-  background-color: #f1cfba; }
+  background-color: #CF9682; }
 
 h3.titulo-info-footer {
   font-weight: bold;
   font-size: 18px;
-  color: #CF9682; }
+  color: #fcf3f0; }
 
 .contenedor-info-footer {
   height: auto;
-  padding: 10px;
+  padding: 30px;
   width: 100%;
   display: flex;
-  padding-bottom: 2%;
+  padding-bottom: 5px;
   justify-content: space-around;
-  color: #CF9682; }
+  color: #fcf3f0; }
 
 @media (max-width: 768px) {
   .contenedor-info-footer {
@@ -100,7 +99,7 @@ h3.titulo-info-footer {
   text-align: center;
   font-size: 1rem;
   padding: 5px;
-  color: #CF9682; }
+  color: #fcf3f0; }
 
 /*Pagina de inicio */
 .main-home {

@@ -1,3 +1,6 @@
+.navbar {
+    margin-bottom: 12px;
+
 .navbar-brand {
     color: #CF9682;
     font-weight: bold;
@@ -8,20 +11,21 @@
         font-weight: bold;
     }
 
-    &:hover {
-        color: white !important;
+    .nav-link:hover {
+        color: white!important;
     }
 }
 .navbar-toggler {
     border: 1px solid #952b2ba1!important;
 }
+}
 
 #encabezado {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    background-color: #f1cfba;
+    background-color:#CF9682;
     color: white;
     text-align: center;
     padding: 5px 0;
     display: block;
-}
+} 
