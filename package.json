@@ -296,5 +296,13 @@
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucilaFarias26/sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucilaFarias26/sass/issues"
+  },
+  "homepage": "https://github.com/LucilaFarias26/sass#readme",
   "description": ""
 }

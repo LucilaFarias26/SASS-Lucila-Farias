@@ -44,7 +44,7 @@ h3.titulo-info-footer {
 
 @media (max-width: 768px) {
     .contenedor-info-footer {
-        font-size: 10px;
+        font-size: 16px;
 
     }}
     
@@ -252,6 +252,7 @@ h3.titulo-info-footer {
     border-radius: 30px;
     width: 100px;
     margin: auto;
+    font-size: 18px;
 }
 
 /*Página nosotros*/
@@ -291,7 +292,9 @@ h3.titulo-info-footer {
     gap: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
-    max-width: 100%
+    max-width: 100%;
+    height: auto;
+
 }
 
 @media (max-width: 768px) {
