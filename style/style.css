@@ -262,7 +262,17 @@ h3.titulo-info-footer {
 .img-equipo {
   display: block;
   margin: auto;
-  max-width: 100%; }
+  max-width: 100%;
+  width: 300px;
+  height: 300px; }
+
+.img-equipo-principal {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  width: 700px;
+  height: 400px;
+  margin-bottom: 20px; }
 
 .contenedor-imagenes-nosotros {
   display: flex;
