@@ -43,6 +43,19 @@
   display: block;
   font-size: 14px; }
 
+.botones, .btn-comprar, .boton {
+  text-align: center;
+  border: solid 1px #CF9682;
+  background-color: #CF9682;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+  width: 100px;
+  margin: auto; }
+
+.boton {
+  font-size: 18px; }
+
 /* Reglas generales */
 body {
   background-color: #fcf3f0 !important;
@@ -178,16 +191,6 @@ h3.titulo-info-footer {
     grid-template-columns: repeat(1, 1fr);
     align-items: center; } }
 
-.btn-comprar {
-  text-align: center;
-  border: solid 1px #CF9682;
-  background-color: #CF9682;
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  width: 100px;
-  margin: auto; }
-
 /*Pagina contacto*/
 .contacto {
   display: flex;
@@ -227,17 +230,6 @@ h3.titulo-info-footer {
 
 .campo {
   margin-right: 10px; }
-
-.boton {
-  text-align: center;
-  border: solid 1px #CF9682;
-  background-color: #CF9682;
-  color: white;
-  font-weight: bold;
-  border-radius: 30px;
-  width: 100px;
-  margin: auto;
-  font-size: 18px; }
 
 /*Página nosotros*/
 .encabezado-nosotros {

@@ -1,0 +1,19 @@
+.botones {
+text-align: center;
+border: solid 1px #CF9682;
+background-color: #CF9682;
+color: white; 
+font-weight: bold;
+border-radius: 30px;
+width: 100px;
+margin: auto;
+}
+
+.btn-comprar{
+    @extend .botones;   
+}
+
+.boton {
+    @extend .botones;
+    font-size: 18px;
+}

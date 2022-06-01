@@ -2,6 +2,7 @@
 @import "font";
 @import "titulos";
 @import "nav";
+@import "btn";
 
 /* Reglas generales */
 
@@ -174,16 +175,6 @@ h3.titulo-info-footer {
     }
 }
 
-.btn-comprar{
-    text-align: center;
-    border: solid 1px $principal;
-    background-color: $principal;
-    color: white; 
-    font-weight: bold;
-    border-radius: 30px;
-    width: 100px;
-    margin: auto;
-}  
 
 
 /*Pagina contacto*/
@@ -241,18 +232,6 @@ h3.titulo-info-footer {
 
 .campo {
     margin-right: 10px;
-}
-
-.boton {
-    text-align: center;
-    border: solid 1px $principal;
-    background-color: $principal;
-    color: white; 
-    font-weight: bold;
-    border-radius: 30px;
-    width: 100px;
-    margin: auto;
-    font-size: 18px;
 }
 
 /*Página nosotros*/
