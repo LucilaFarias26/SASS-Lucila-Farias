@@ -1,0 +1,40 @@
+footer {
+    background-color: $principal;
+
+    h3.titulo-info-footer {
+        font-weight: bold;
+        font-size: 18px;
+        color: $terciario;
+    }
+
+    .contenedor-info-footer {
+        height: auto;
+        padding: 30px;
+        width: 100%;
+        display: flex;
+        padding-bottom: 5px;
+        justify-content: space-around;
+        color: $terciario;
+
+        .columna {
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .redes-sociales {
+            font-size: 1.2rem;
+            padding: 8px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 6%;
+        }
+    }
+
+    .copy {
+        text-align: center;
+        font-size: 1rem;
+        padding: 5px;
+        color: $terciario;
+    }
+}
