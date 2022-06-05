@@ -1,0 +1,38 @@
+.contacto {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+
+.info-contacto {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+} }
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.contenedor-form {
+    border-radius: 20px;
+    border: 1px solid $principal;
+    width: 40%;
+
+}
+
+.contenedor-form-msj {
+    border-radius: 20px;
+    border: 1px solid $principal;
+    width: 40%;
+    padding: 16px;
+
+
+}
+
+.campo {
+    margin-right: 10px;
+}

@@ -1,0 +1,50 @@
+/*Pagina de inicio */
+.main-home {
+    color: $principal;
+
+    .section-2-home {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 25px;
+    }
+}
+
+.contenedor-imagenes-home {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+
+    .texto-banner {
+        text-align: center;
+    }
+}
+
+.contenedor-banner-informativo {
+    display: flex;
+    background-color: $secundario;
+    padding: 20px;
+    box-direction: row;
+    flex-basis: 100px;
+    justify-content: center;
+
+    .columna-banner-informativo {
+        text-align: center;
+        width: 30%;
+        padding: 10px;
+    }
+
+    p {
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
+
+#lista-de-productos-home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-items: center;
+}

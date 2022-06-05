@@ -6,12 +6,11 @@ color: white;
 font-weight: bold;
 border-radius: 30px;
 width: 100px;
-margin: auto;
-}
+margin: auto; 
 
 .btn-comprar{
-    @extend .botones;   
-}
+    @extend .botones; 
+} 
 
 .boton {
     @extend .botones;

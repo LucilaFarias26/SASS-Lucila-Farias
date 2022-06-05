@@ -1,0 +1,102 @@
+/*footer*/
+
+@media (max-width: 768px) {
+    .contenedor-info-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-info-footer {
+        font-size: 16px;
+
+    }}
+    
+@media (max-width: 768px) {
+    .titulo-info-footer{
+        font-size: 14px;
+        font-weight: bold;
+    }
+}
+
+/*Pagina de inicio */
+@media (max-width: 768px) { 
+    .section-2-home{
+      height: 30vh;
+    }
+}
+
+@media (max-width: 375px) { 
+    .section-2-home{
+      height: 18vh;
+    }
+}
+
+@media (max-width: 375px) {
+.img-home {
+    width: 300px;
+}
+}
+
+@media (max-width: 768px) { 
+    .contenedor-imagenes-home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-banner{
+        text-align: center;
+        align-items: center ;}
+}
+
+@media (max-width: 768px) { 
+    .contenedor-banner-informativo {
+        flex-direction: column;
+        flex-basis: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) { 
+    #lista-de-productos-home {
+        display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       align-items: center;
+    }
+}
+
+/*Página nosotros*/
+
+@media (max-width: 768px) {
+    .texto-nosotros{
+    text-align: center;
+}
+}
+
+@media (max-width: 768px) {
+    .contenedor-imagenes-nosotros {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*Pagina preguntas frecuentes */
+@media (max-width: 768px) {
+    #section-2-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 375px) {
+    #section-2-productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 768px) { 
+    .cuotas {
+        font-size: 14px;
+    } }
