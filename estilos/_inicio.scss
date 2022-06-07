@@ -22,11 +22,12 @@
 
 .contenedor-banner-informativo {
     display: flex;
-    background-color: $secundario;
+    background-color: $principal;
     padding: 20px;
     box-direction: row;
     flex-basis: 100px;
     justify-content: center;
+    color: white;
 
     .columna-banner-informativo {
         text-align: center;

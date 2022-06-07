@@ -1,10 +1,10 @@
 footer {
-    background-color: #CF9682;
+    background-color: #f1cfba;
 
     h3.titulo-info-footer {
         font-weight: bold;
         font-size: 18px;
-        color: $terciario;
+        color: #CF9682;
     }
 
     .contenedor-info-footer {
@@ -14,7 +14,7 @@ footer {
         display: flex;
         padding-bottom: 5px;
         justify-content: space-around;
-        color: $terciario;
+        color: #CF9682;
 
         .columna {
             width: 30%;
@@ -35,6 +35,6 @@ footer {
         text-align: center;
         font-size: 1rem;
         padding: 5px;
-        color: $terciario;
+        color: #CF9682;
     }
 }

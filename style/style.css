@@ -36,7 +36,7 @@
 #encabezado {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  background-color: #CF9682;
+  background-color: #f1cfba;
   color: white;
   text-align: center;
   padding: 5px 0;
@@ -44,11 +44,11 @@
   font-size: 14px; }
 
 footer {
-  background-color: #CF9682; }
+  background-color: #f1cfba; }
   footer h3.titulo-info-footer {
     font-weight: bold;
     font-size: 18px;
-    color: #fcf3f0; }
+    color: #CF9682; }
   footer .contenedor-info-footer {
     height: auto;
     padding: 30px;
@@ -56,7 +56,7 @@ footer {
     display: flex;
     padding-bottom: 5px;
     justify-content: space-around;
-    color: #fcf3f0; }
+    color: #CF9682; }
     footer .contenedor-info-footer .columna {
       width: 30%;
       padding: 10px;
@@ -71,7 +71,7 @@ footer {
     text-align: center;
     font-size: 1rem;
     padding: 5px;
-    color: #fcf3f0; }
+    color: #CF9682; }
 
 /*Pagina de inicio */
 .main-home {
@@ -91,11 +91,12 @@ footer {
 
 .contenedor-banner-informativo {
   display: flex;
-  background-color: #f1cfba;
+  background-color: #CF9682;
   padding: 20px;
   box-direction: row;
   flex-basis: 100px;
-  justify-content: center; }
+  justify-content: center;
+  color: white; }
   .contenedor-banner-informativo .columna-banner-informativo {
     text-align: center;
     width: 30%;
@@ -285,7 +286,7 @@ footer {
 
 /* Reglas generales */
 body {
-  background-color: #fcf3f0 !important;
+  background-color: white;
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
   color: black;
