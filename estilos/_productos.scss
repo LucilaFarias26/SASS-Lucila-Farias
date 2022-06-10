@@ -1,0 +1,59 @@
+#section-2-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-items: center;
+}
+
+@media (max-width: 768px) {
+    #section-2-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 375px) {
+    #section-2-productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+#lista-de-productos img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-prod:hover {
+    transform: scale(1.2);
+
+}
+.precio {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px
+}
+
+.item-name {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: -10px;
+}
+
+.cuotas {
+    font-size: 12px;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+@media (max-width: 768px) { 
+.cuotas {
+    font-size: 14px;
+} }
